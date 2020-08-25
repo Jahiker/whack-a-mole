@@ -1,0 +1,36 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
+
+.button {
+    padding: 15px 20px;
+    width: 15%;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    text-justify: center;
+    text-align: center;
+    box-shadow: rgb(117, 117, 117) 3px 3px;
+    font-family: 'Press Start 2P', cursive;
+}
