@@ -2,6 +2,12 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
+.title {
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .square {
     width: 200px;
     height: 200px;
